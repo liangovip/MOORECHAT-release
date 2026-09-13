@@ -1,0 +1,35 @@
+name: Publish Public Release
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.0
+          name: MOORECHAT Android v1.0.0
+          body: |
+            ## 🌈 MOORECHAT Android 官方公开下载
+            
+            - **多链 Web3 钱包**: 原生支持币安智能链 (BSC)、波场 (TRON) 与以太坊 (ETH)
+            - **零手机号登录 (方案2)**: Web3 钱包私钥签名静默发号
+            - **官方电报直连**: 海外直连 Telegram 数据中心，聊天内一键发红包/转账
+            
+            **点击下方 Assets 中的 `MOORECHAT-v1.0.0.apk` 立即免登录下载！**
+          files: |
+            MOORECHAT-v1.0.0.apk
+            MOORECHAT.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
