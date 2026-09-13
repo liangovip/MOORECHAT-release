@@ -9,9 +9,9 @@
 
 任何朋友、社群成员或测试用户均可直接点击下方链接下载体验，**无需 GitHub 账号，无需登录**：
 
-👉 **[点击直接下载最新版 MOORECHAT.apk (直链)](https://github.com/tao72406-ctrl/MOORECHAT-release/raw/main/MOORECHAT.apk)**
+👉 **[点击直接下载最新版 MOORECHAT.apk (直链)](https://github.com/liangovip/MOORECHAT-release/raw/main/MOORECHAT.apk)**
 
-*(备用下载链接: [MOORECHAT-v1.0.0.apk](https://github.com/tao72406-ctrl/MOORECHAT-release/raw/main/MOORECHAT-v1.0.0.apk))*
+*(备用下载链接: [MOORECHAT-v1.0.0.apk](https://github.com/liangovip/MOORECHAT-release/raw/main/MOORECHAT-v1.0.0.apk))*
 
 ---
 
